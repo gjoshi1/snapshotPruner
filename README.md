@@ -30,7 +30,8 @@ Snapshot Pruner
 <p><br>
 <strong>snapshots</strong>&nbsp;is a list of tuples.&nbsp;Each tuple has three items: a snapshot ID, the UTC created date, and the status. The status can either be "available" or some other string. Example input:</p>
 
-<div style="background:#eeeeee; border:1px solid #cccccc; padding:5px 10px"><code>[<br>
+<div style="background:#eeeeee; border:1px solid #cccccc; padding:5px 10px">
+<code>[<br>
 &nbsp; ('beta-1', datetime(2017, 10, 1, 14, 10, 30), 'available'),<br>
 &nbsp; ('beta-2', datetime(2018, 1, 20, 18, 1, 34), 'available'),<br>
 &nbsp; ('beta-3', datetime(2018, 1, 22, 8, 45, 22), 'pending'),<br>
