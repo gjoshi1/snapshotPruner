@@ -19,7 +19,7 @@ Snapshot Pruner
 
 <p>Every night, an automated process captures a snapshot of a database and uploads that snapshot to a persistent data store. These snapshots are very large and to reduce our storage costs we want to prune some of them.</p>
 
-<h1>Your Objective</h1>
+<h1>Objective</h1>
 
 <p>Implement a function that will be used to determine which snapshots can be pruned. The function will <strong>receive a single parameter</strong> that is a list of snapshots, and is expected to <strong>return a list of snapshot IDs</strong> that can be pruned.</p>
 
